@@ -3,3 +3,6 @@ image: Visual Studio 2013
 platform: x86
 build:
   verbosity: minimal
+artifacts:
+- path: LabelPEB
+  name: LabelPEB %APPVEYOR_REPO_BRANCH% %ILSPY_VERSION_NUMBER% binaries
