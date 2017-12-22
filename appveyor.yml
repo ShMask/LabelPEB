@@ -1,8 +1,10 @@
 version: 1.0.{build}
 image: Visual Studio 2013
-platform: x86
+platform:
+- x86
+- x64
 build:
   verbosity: minimal
 artifacts:
 - path: LabelPEB
-  name: LabelPEB %APPVEYOR_REPO_BRANCH% %LabelPEB_VERSION_NUMBER% binaries
+  name: '%APPVEYOR_PROJECT_NAME% %APPVEYOR_REPO_BRANCH% %APPVEYOR_BUILD_NUMBER%.%APPVEYOR_BUILD_VERSION%_binaries'
