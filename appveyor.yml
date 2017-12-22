@@ -5,4 +5,4 @@ build:
   verbosity: minimal
 artifacts:
 - path: LabelPEB
-  name: LabelPEB %APPVEYOR_REPO_BRANCH% %ILSPY_VERSION_NUMBER% binaries
+  name: LabelPEB %APPVEYOR_REPO_BRANCH% %LabelPEB_VERSION_NUMBER% binaries
