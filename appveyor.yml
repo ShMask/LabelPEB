@@ -7,4 +7,4 @@ build:
   verbosity: minimal
 artifacts:
 - path: bin
-  name: '%APPVEYOR_PROJECT_NAME% %APPVEYOR_REPO_BRANCH% %APPVEYOR_BUILD_VERSION%_binaries'
+  name: '%APPVEYOR_PROJECT_NAME% v%APPVEYOR_BUILD_VERSION%_%PLATFORM%'
